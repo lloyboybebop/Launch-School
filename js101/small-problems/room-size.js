@@ -1,0 +1,1 @@
+prompt('Enter the length of the room in meters:');
