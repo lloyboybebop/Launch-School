@@ -37,7 +37,9 @@ while (!['1', '2', '3', '4'].includes(operation)) {
   operation = readline.question();
 }
 
-let operands = [+first + +second, first - second, first * second, first / second];
+let operands = [
+  +first + +second, first - second, first * second, first / second
+];
 
 // perform the operation on the two numbers
 let calculated = operands[operation - 1];
